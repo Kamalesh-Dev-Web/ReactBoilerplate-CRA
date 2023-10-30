@@ -15,8 +15,8 @@ The page will reload when you make changes.\
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for development to the `build` folder.\
+It correctly bundles React for development using development environment variables and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
