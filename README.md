@@ -55,4 +55,4 @@ Runs all the unit tests and gives the coverage of unit tests.
 
 ### `Material UI library Added`
 
-Material UI Library is added and `theme.js` . Using this file we can have a theme for the app and will ease our work in changing our app theme.
+Material UI Library and `theme.js` file is added. Using this file we can have a theme for the app and will ease our work in changing our app theme.
