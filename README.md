@@ -59,6 +59,8 @@ Material UI Library and `theme.js` file is added. Using this file we can have a 
 
 ### `Folder System`
 
-Components : global componenets can be inside the `src/components` folder
-Containers : containers for pages can be placed inside the `src/containers/{pageName}/index.js`
+Components : global componenets can be inside the `src/components` folder  
+
+Containers : containers for pages can be placed inside the `src/containers/{pageName}/index.js`  
+
 layouts : different layouts for the components or pages can be inside a layout folder on respective container or component (example: `src/containers/{pageName}/layouts/{layoutName}.js`)
