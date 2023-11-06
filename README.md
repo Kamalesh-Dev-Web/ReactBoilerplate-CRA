@@ -47,11 +47,15 @@ Your app is ready to be deployed!
 
 ### `npm run test`
 
-Runs all the unit tests file under the src folder with react testing library
+Runs all the unit tests file under the src folder with react testing library.
 
 ### `npm run coverage`
 
 Runs all the unit tests and gives the coverage of unit tests.
+
+### `Pre-commit hook Added`
+
+In `.husky/_/pre-commit` file you can add precommit rules to run before you push the code to the repo.
 
 ### `Material UI library Added`
 
@@ -65,3 +69,6 @@ Containers : containers for pages can be placed inside the `src/containers/{page
 
 Layouts : different layouts for the components or pages can be inside a layout folder on respective container or component (example: `src/containers/{pageName}/layouts/{layoutName}.js`)  
 
+### `Redux Added`
+
+In `src/redux` the whole redux toolkit setup is done and ready to use add your own reducers  creating a `{yourSlice}Slice.js` and add it to the redux store.
