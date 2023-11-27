@@ -53,6 +53,8 @@ Runs all the unit tests file under the src folder with react testing library.
 
 Runs all the unit tests and gives the coverage of unit tests.
 
+![alt text](./src/assets/readme/coverage.png 'Coverage Report')
+
 ## `Pre-commit hook Added`
 
 In `.husky/_/pre-commit` file you can add precommit rules to run before you push the code to the repo.
@@ -68,6 +70,8 @@ Components : Global components can be inside the `src/components` folder
 Containers : Containers for pages can be placed inside the `src/containers/{pageName}/index.js`
 
 Layouts : Different layouts for the components or pages can be inside a layout folder on respective container or component (example: `src/containers/{pageName}/layouts/{layoutName}.js`)
+
+![alt text](./src/assets/readme/folder.png 'Folder Structure')
 
 ## `Redux Added`
 
