@@ -53,22 +53,22 @@ Runs all the unit tests file under the src folder with react testing library.
 
 Runs all the unit tests and gives the coverage of unit tests.
 
-### `Pre-commit hook Added`
+## `Pre-commit hook Added`
 
 In `.husky/_/pre-commit` file you can add precommit rules to run before you push the code to the repo.
 
-### `Material UI library Added`
+## `Material UI library Added`
 
 Material UI Library and `theme.js` file is added. Using this file we can have a theme for the app and will ease our work in changing our app theme.
 
-### `Folder System`
+## `Folder System`
 
-Components : global componenets can be inside the `src/components` folder  
+Components : Global components can be inside the `src/components` folder
 
-Containers : containers for pages can be placed inside the `src/containers/{pageName}/index.js`  
+Containers : Containers for pages can be placed inside the `src/containers/{pageName}/index.js`
 
-Layouts : different layouts for the components or pages can be inside a layout folder on respective container or component (example: `src/containers/{pageName}/layouts/{layoutName}.js`)  
+Layouts : Different layouts for the components or pages can be inside a layout folder on respective container or component (example: `src/containers/{pageName}/layouts/{layoutName}.js`)
 
-### `Redux Added`
+## `Redux Added`
 
-In `src/redux` the whole redux toolkit setup is done and ready to use add your own reducers  creating a `{yourSlice}Slice.js` and add it to the redux store.
+In `src/redux` the whole redux toolkit setup is done and ready to use add your own reducers creating a `{yourSlice}Slice.js` and add it to the redux store.
