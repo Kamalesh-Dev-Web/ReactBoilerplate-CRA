@@ -55,15 +55,15 @@ Runs all the unit tests and gives the coverage of unit tests.
 
 ![alt text](./src/assets/readme/coverage.png 'Coverage Report')
 
-## `Pre-commit hook Added`
+## Pre-commit hook Added
 
 In `.husky/_/pre-commit` file you can add precommit rules to run before you push the code to the repo.
 
-## `Material UI library Added`
+## Material UI library Added
 
 Material UI Library and `theme.js` file is added. Using this file we can have a theme for the app and will ease our work in changing our app theme.
 
-## `Folder System`
+## Folder System To Be Followed
 
 Components : Global components can be inside the `src/components` folder
 
