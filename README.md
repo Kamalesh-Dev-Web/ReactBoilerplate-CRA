@@ -73,6 +73,8 @@ Layouts : Different layouts for the components or pages can be inside a layout f
 
 ![alt text](./src/assets/readme/folder.png 'Folder Structure')
 
-## `Redux Added`
+## Redux Added
 
 In `src/redux` the whole redux toolkit setup is done and ready to use add your own reducers creating a `{yourSlice}Slice.js` and add it to the redux store.
+
+![alt text](./src/assets/readme/redux.png 'Redux Location')
