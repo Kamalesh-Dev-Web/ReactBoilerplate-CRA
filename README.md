@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+First clone the repo and then run `npm install` to install all the dependencies.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -12,14 +14,24 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
+
+Builds the app for development to the `build` folder.\
+It correctly bundles React for development using development environment variables and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+### `npm run build:dev`
+
+Builds the app for development to the `build` folder.\
+It correctly bundles React for development using development environment variables and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+### `npm run build:prod`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,44 +39,44 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run build:qa`
 
-### `npm run eject`
+Builds the app for qa to the `build` folder.\
+It correctly bundles React for quality using qa environment variables and optimizes the build for the best performance.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run test`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Runs all the unit tests file under the src folder with react testing library.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `npm run coverage`
 
-## Learn More
+Runs all the unit tests and gives the coverage of unit tests.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![alt text](./src/assets/readme/coverage.png 'Coverage Report')
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Pre-commit hook Added
 
-### Code Splitting
+In `.husky/_/pre-commit` file you can add precommit rules to run before you push the code to the repo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Material UI library Added
 
-### Analyzing the Bundle Size
+Material UI Library and `theme.js` file is added. Using this file we can have a theme for the app and will ease our work in changing our app theme.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Folder System To Be Followed
 
-### Making a Progressive Web App
+Components : Global components can be inside the `src/components` folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Containers : Containers for pages can be placed inside the `src/containers/{pageName}/index.js`
 
-### Advanced Configuration
+Layouts : Different layouts for the components or pages can be inside a layout folder on respective container or component (example: `src/containers/{pageName}/layouts/{layoutName}.js`)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![alt text](./src/assets/readme/folder.png 'Folder Structure')
 
-### Deployment
+## Redux Added
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+In `src/redux` the whole redux toolkit setup is done and ready to use add your own reducers creating a `{yourSlice}Slice.js` and add it to the redux store.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](./src/assets/readme/redux.png 'Redux Location')
