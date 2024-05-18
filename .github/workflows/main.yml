@@ -1,9 +1,10 @@
 name: Log Repository Info
 
-# Schedule the workflow to run every 5 minutes
+# Trigger the workflow on push events to the YAML file
 on:
-  schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
+  push:
+    paths:
+      - .github/workflows/main.yml
 
 jobs:
   log-repo-info:
